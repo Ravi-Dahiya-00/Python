@@ -444,8 +444,6 @@ def main():
 	numBalloons = 10
 
 	listOfBalloons = populateBalloons(30, 40, 5, numBalloons)
-	listOfArrows = []
-
 	while running:
 	# Background
 		screen.fill(GREEN) 
