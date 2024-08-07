@@ -1,5 +1,5 @@
 import turtle
-turtle.color("black")
+turtle.color("yellow")
 turtle.penup()
 turtle.goto(-100,0)
 turtle.pendown()
