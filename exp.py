@@ -1,7 +1,7 @@
 import turtle
-turtle.color("yellow")
+turtle.color("blue")
 turtle.penup()
-# turtle.goto(-100,0)
+turtle.goto(-100,0)
 turtle.pendown()
 turtle.circle(90)
 
