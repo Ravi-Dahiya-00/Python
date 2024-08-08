@@ -78,6 +78,7 @@ print(x+y)
 
 #for substraction we use - sign in between the two numbers.
 print(7 - 3)
+
 p=int(input("enter your first number:"))
 q=int(input("enter your second number:"))
 print(p-q)              
@@ -124,14 +125,15 @@ print('hello world', 7, 5)
 
 
 #1. appropriate comments and comment style:
-# must include a summary about the code in beginning and with every major step.
+                                  # must include a summary about the code in beginning and with every major step.
 
 
 
 #2. proper spacing:
-# a consistent spacing style makes program clear and easy to read, and it also makes it easier to debug.
+         # a consistent spacing style makes program clear and easy to read, and it also makes it easier to debug.
 
 # print(3+4*5)                           #wrong style
+
 # print(3 + 4 * 5)                      #good style
 
 
@@ -141,10 +143,12 @@ print('hello world', 7, 5)
 
 
 #1.syntax error:
-#most common error in python.
-#syntax error results from errors in code cunstruction, such as mistypimg a statement , incorrect indentation, omitting some necessary punctuation, or using an open parenthesis without a corresponding closing parenthesis.
+              #most common error in python.
+              #syntax error results from errors in code cunstruction, such as mistypimg a statement , incorrect indentation, omitting some necessary punctuation, or using an open parenthesis without a corresponding closing parenthesis.
 
-#print("not used puncuation error)   #puncutation error
+
+#print("not used puncuation error)  
+'''puncutation error'''
 
 # easy to detect because python tells where they are and caused them.
 
@@ -161,13 +165,7 @@ SyntaxError: unterminated string literal (detected at line 1)
 '''Runtime errors in Python are instances where a program terminates abnormally during execution,often due to incorrect or invalid operations.These errors occur after the program has been successfully compiled, typically when the code attempts to perform operations that are logically or mathematically invalid.'''
 
 
-#Some examples of Python runtime errors:
 
-#1. division by zero
-#2. performing an operation on incompatible types
-#3. using an identifier which has not been defined
-#4. accessing a list element, dictionary value or object attribute which doesn’t exist
-#5. trying to access a file which doesn’t exist
 
 #example
 '''Some examples of Python runtime errors:
@@ -182,14 +180,14 @@ SyntaxError: unterminated string literal (detected at line 1)
 
 #3. logic error:
 '''it occures when the program does not perform the way it was intended to.
-errors of this kind occur for a variety of reasons,
+      errors of this kind occur for a variety of reasons,
       such as incorrect assumptions about the program's behaviour'''
 
 #example:
 '''some example of python logic errors:
 
 converting a string to an integer 
-using the wrong comprasion oerator
+using the wrong comprasion operator
 using the wrong logical error operator
 using the wrong arithmetic operator
 using the wrong assignment operator
@@ -202,16 +200,22 @@ using the wrong ternary operator'''
 
 #convert fahrenhit to celsius:
 print("fahrenhit 35 is celsius degree")
-print("celsius degree is" ,5/9 * (35-32))   #correct method it will show 1.6667
+print("celsius degree is" ,5/9 * (35-32))       #correct method it will show 1.6667
+
+
 
 #but if use wrong operator it will show different answer:
 print("fahrenhit 35 is celsius degree")
-print("celsius degree is" ,5 / 9 * 35 - 32)   #wrong method it will show -12.555
+print("celsius degree is" ,5 / 9 * 35 - 32)        #wrong method it will show -12.55 because we didn't tell which         calculation is to be done first.
+
+
 
 #in python, syntax errors are treated as run-time errors because they are detected by the interpreter when the program is executed.
 
 
 #in general, syntax and runtime errors are easy to find and easy to correct , because python gives indications as to where the error is and ehy they are wrong.
+
+
 #logic errors finding can be very challenging.
 
 
