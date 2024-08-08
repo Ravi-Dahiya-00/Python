@@ -1,7 +1,6 @@
 # what is hashtag # and why it is used in coding ?????
 # hastag is used for commenting the code and it is not executed by the computer.
-# this is also used for rembering the code what i am doing and also
-#we can tell to our code partner what we are coding.
+# this is also used for rembering the code what i am doing and also we can tell to our code partner what we are coding.
 
 
 #paragraph comment 
@@ -26,14 +25,14 @@ from typing import TYPE_CHECKING, SupportsComplex                           #thi
 
 
 #for writing any line in the code
-#we use print and close bracket and double cot and write our statement
-
+#we use print and close bracket and double cot and single cot write our statement
+print("hello")
 print('hello world')
 
 
 #it is very sensitive language.
 #don't use greater letter in PRINT like this it will show error.
-#Print("hello world") #it is wrong method.
+#Print("hello world")               #it is wrong method.
 
 
 
@@ -43,8 +42,9 @@ print('hello world')
 #()             #parentheses                                #used with functions.
 # #             #pound sign                                 #used for comments.
 # ""           #double quotation marks                     #enclose a string.
-# ''           #single quotation marks                     #enclose a string.
-#''''''        #triple single quotation marks               #used for multiline comments.
+# '   '           #single quotation marks                     #enclose a string.
+#'''  '''        #triple single quotation marks               #used for multiline comments.
+
 
 
 print("welcome to python")
@@ -61,12 +61,12 @@ print(5)
 
 
 #using python to perform mathematical computation.
-#print(x+y)       #for addition
-#print(x-y)       #for subtraction
-#print(x*y)       #for multiplication
-#print(x/y)       #for division
+#print(x+y)                          #for addition
+#print(x-y)                          #for subtraction
+#print(x*y)                          #for multiplication
+#print(x/y)                          #for division
 
-#python can be used  for addition subtraction multiplication and division.
+#python can be used  for addition,subtraction,multiplication and division.
 
 #for addition we use + sign in between the two numbers.
 print(5 + 6)
