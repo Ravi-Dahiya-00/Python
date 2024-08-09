@@ -329,6 +329,72 @@ print((9.5*4.5-2.5*3)/(45.5-3.5))
 
 
 
+
+
+
+
+
+
+
+
+
+#writing a simple program
+#writing a program involves designing a strategy for solving the problemand then using a programming language to implement that srategy.
+
+
+
+#circlearea.py
+
+
+#assign a value to radius
+radius=20               #radius is now 20
+
+#compue area
+area=radius*radius*3.14159
+
+#display results
+print("the area of circle of radius",radius,"is",area)
+
+#radius is a variable that has a fix value 20 that is stored in computers memory and can be used anytime when the program needs variable.
+#python automatically figures out the data type according to the value assigned to the variable.we need not to specify what types of values are being used.
+
+
+width=5.5
+height=2
+print("area is ", width,*height)
+
+miles=100
+kilometers=miles*1.609
+print("100miles have",kilometers,"kilometers")
+
+
+#INPUT function is used for taking user input
+variableradius=print(input("enter a value"))
+
+
+#prompt the user to enter a radius
+radius=eval(input("enter a value for radius:"))                     #eval converted the string to number
+
+
+#compute area
+area=radius*radius*3.14159
+
+
+#display results
+print("the area for the circle of radius",radius,"is",area)
+
+
+#reading input from the console
+#reading console enables the program to accept input from the user.
+
+s=input("enter a value for radius:")                    #read input as a string
+radius=eval(s)                                        #conert the string to a number
+
+#int can also be used for converting the string into a number
+x=int(input("enter your first number"))        #if int is not used it will take it is a string
+
+
+
 # for starting a new a line and continue the same statement
 #but in the next line we use \n
 print('hellofriends \nthis is my first code')  #\n for new line

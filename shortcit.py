@@ -1,27 +1,2 @@
-x=int(input("enter your first number:"))
-print((x*x)*2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+x=(input("enter your first number"))
+print(x+x)
