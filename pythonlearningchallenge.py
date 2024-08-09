@@ -295,6 +295,36 @@ turtle.pendown()
                     #made a olympic ring logo using turtle.
                        # file = olympicring.py
 
+#something intersting:
+                #if we want something in design and in more than one line we can write it by using some logic.
+
+#let's see:
+          #python program to display patterns:
+
+
+print(" FFFFFFFFFF      UU            UU        NN            NNN ")
+print(" FF              UU            UU        NN N          NN  ")
+print(" FF              UU            UU        NN   N        NN  ")
+print(" FFFFFFFFF       UU            UU        NN     N      NN  ")
+print(" FF               UU          UU         NN       N    NN  ")
+print(" FF                UU        UU          NN         N  NN  ")
+print(" FF                  UUUUUUUU           NNN           NNN  ")
+
+#this was only for fun purpose but it also provided one different logic to think it about.
+
+
+#we can also create a table using print statement.
+
+print("A Program To Display The Table: ")
+print("a", 
+             "a^2",
+                         "a^3")         #written in different line for spacing in between the characters a, a^2;a^3.
+print(1,         1*1,       1*1*1)
+print(2,         2*2,       2*2*2)
+print(3,         3*3,       3*3*3)
+print(4,         4*4,       4*4*4)
+
+print((9.5*4.5-2.5*3)/(45.5-3.5))
 
 
 # for starting a new a line and continue the same statement

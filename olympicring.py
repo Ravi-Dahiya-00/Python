@@ -1,4 +1,7 @@
                  #drawing the olympic ring logo
+import turtle
+
+
 turtle.color("blue")
 turtle.penup()
 turtle.goto(-25,110)
